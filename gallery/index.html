@@ -26,7 +26,7 @@
 
     <!-- Top Navigation Bar  -->
     <!-- Grey with black text -->
-    <nav class="navbar navbar-expand-sm navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="https://gavin-daniel.com">
           <img src="/images/logo/white-small-v2.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
@@ -44,8 +44,30 @@
       </div>
     </nav>
 
+    <nav class="bd-subnavbar py-2" aria-label="Secondary navigation">
+      <div class="container-xxl d-flex align-items-md-center">
+        <!-- Header -->
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Gallery</span>
+        </div>
+        <div class="dropdown ms-3">
+          <button class="btn btn-bd-light dropdown-toggle" id="bd-versions" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+            <span class="d-none d-lg-inline">Bootstrap</span> v5.0
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-versions">
+            <li><a class="dropdown-item current" aria-current="true" href="/docs/5.0/">Latest (5.0.x)</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://getbootstrap.com/docs/4.6/">v4.6.x</a></li>
+            <li><a class="dropdown-item" href="https://getbootstrap.com/docs/3.4/">v3.4.1</a></li>
+            <li><a class="dropdown-item" href="https://getbootstrap.com/2.3.2/">v2.3.2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/docs/versions/">All versions</a></li>
+          </ul>
+        </div> 
+    </nav>
+
     <!-- Sub Navigation -->
-    <ul class="nav justify-content-end">
+    <!-- <ul class="nav justify-content-end">
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Overview</a>
       </li>
@@ -58,7 +80,7 @@
       <li class="nav-item text-white">
         <a class="nav-link" href="#">Graphics</a>
       </li>
-    </ul>
+    </ul> -->
 
     <div class="card text-end bg-dark text-white">
       <img src="/images/pictures/utah/hikers.jpeg" class="card-img" alt="Hikers">
