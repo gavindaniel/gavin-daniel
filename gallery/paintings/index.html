@@ -16,7 +16,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <!-- overwrite background color of body -->
     <style type="text/css">
-      body { background: black !important; } 
+      body { background: black !important; }
+      a { text-decoration: none; } 
+      a:hover { text-decoration: underline; }
     </style>
   </head>
   <body>
@@ -94,13 +96,15 @@
     </div>
 
     <!-- Bottom Navigation & Breadcrumbs -->
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="bg-black">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Gallery</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Paintings</li>
-      </ol>
-    </nav>
+    <div class="container-fluid">
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="bg-black text-white">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="https://gavin-daniel.com/">Home</a></li>
+          <li class="breadcrumb-item"><a href="https://gavin-daniel.com/gallery/">Gallery</a></li>
+          <li class="breadcrumb-item disabled" aria-current="page">Paintings</li>
+        </ol>
+      </nav>
+    </div>
 
   </body>
 </html>
