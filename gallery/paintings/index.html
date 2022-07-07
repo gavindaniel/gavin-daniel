@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="https://gavin-daniel.com/gallery/">Gallery</a>
+              <a class="nav-link disabled" href="https://gavin-daniel.com/gallery/">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Projects</a>
@@ -68,59 +68,67 @@
         </div> 
     </nav>
 
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/utah/hikers.jpeg" class="card-img" alt="Hikers">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Moab</h6>
+    <!-- Carousel - Pictures - Sunsets -->
+    <div id="slide-sun" class="carousel slide" data-bs-ride="carousel">
+      
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/pictures/ams/nye.JPG" alt="Amsterdam" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/pictures/buf/buf3_small.jpg" alt="Buffalo" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/pictures/bry/bry13.jpg" alt="Bryce Canyon" class="d-block" style="width:100%">
+        </div>
       </div>
+      
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#slide-sun" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slide-sun" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
 
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/pra/focus.jpeg" class="card-img" alt="Prague">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Prague</h6>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/phi/golden.jpeg" class="card-img" alt="Golden Hour">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Sunsets</h6>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/irl/cliffs.jpg" class="card-img" alt="Cliffs">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Ireland</h6>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/bry/bry6.jpg" class="card-img" alt="Bryce Canyon">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Bryce Canyon</h6>
-      </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/ams/boat.jpg" class="card-img" alt="Boat">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Amsterdam</h6>
-      </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/par/arc.jpg" class="card-img" alt="Arc">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Paris</h6>
-      </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/san/fisherman.jpeg" class="card-img" alt="Fisherman">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">San Diego</h6>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
       </div>
     </div>
 
