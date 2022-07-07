@@ -24,8 +24,7 @@
   </head>
   <body>
 
-    <!-- Top Navigation Bar  -->
-    <!-- Grey with black text -->
+    <!-- Global Navigation Bar  -->
     <nav class="navbar navbar-expand-sm bg-black navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="https://gavin-daniel.com">
@@ -47,6 +46,7 @@
       </div>
     </nav>
 
+    <!-- Local Navigation Bar -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
       <div class="container-fluid">
         <span class="navbar-brand text-white">Gallery</span>
@@ -71,32 +71,48 @@
         </div> 
     </nav>
 
-    <!-- Carousel -->
-    <div id="slide-sun" class="carousel slide" data-bs-ride="carousel">
-      
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/images/paintings/messi.jpg" alt="Messi" class="d-block" style="width:100%">
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="/images/paintings/messi.jpg" class="card-img-top" alt="Messi">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="/images/paintings/cole.jpg" alt="J. Cole" class="d-block" style="width:100%">
+        <div class="col">
+          <div class="card">
+            <img src="/images/paintings/messi.jpg" class="card-img-top" alt="Messi">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="/images/paintings/kendrick.jpg" alt="Kendrick" class="d-block" style="width:100%">
+        <div class="col">
+          <div class="card">
+            <img src="/images/paintings/messi.jpg" class="card-img-top" alt="Messi">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/images/paintings/messi.jpg" class="card-img-top" alt="Messi">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <!-- Left and right controls/icons -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#slide-sun" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#slide-sun" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
     </div>
 
-    <!-- Bottom Navigation & Breadcrumbs -->
+    <!-- Bottom Navigation / Breadcrumbs -->
     <div class="p-2 container-fluid">
       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="p-2 bg-black">
         <ol class="breadcrumb">
@@ -106,7 +122,7 @@
         </ol>
       </nav>
       <hr class="footer">
-      <div class="p-2 text-white-50">Copyright ©  2022 <a href="https://www.gavin-daniel.com" class="text-light">Gavin Daniel.</a> All rights reserved.</div>
+      <div class="p-2 text-white-50">©  2022 Gavin Daniel</div>
     </div>
 
   </body>
