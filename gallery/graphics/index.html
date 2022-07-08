@@ -16,13 +16,16 @@
     <link rel="manifest" href="/site.webmanifest">
     <!-- overwrite background color of body -->
     <style type="text/css">
-      body { background: black !important; } 
+      body { background: black !important; }
+      a { text-decoration: none; } 
+      a:hover { text-decoration: underline; }
+      hr.footer { border: 1px solid white; }
+      #localNavbar { opacity: 0.8; } 
     </style>
   </head>
   <body>
 
     <!-- Top Navigation Bar  -->
-    <!-- Grey with black text -->
     <nav class="navbar navbar-expand-sm bg-black navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="https://gavin-daniel.com">
@@ -34,7 +37,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="https://gavin-daniel.com/gallery/">Gallery</a>
+              <a class="nav-link disabled" href="https://gavin-daniel.com/gallery/">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Projects</a>
@@ -68,60 +71,105 @@
         </div> 
     </nav>
 
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/utah/hikers.jpeg" class="card-img" alt="Hikers">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Moab</h6>
+    <div class="p-4 container-fluid bg-black">
+      <h2 class="text-white">Graphic Design</h2>
+      <p></p>
+      <p class="text-white">I started getting into graphic design in college when I started designing apparel for my fraternity.</p>
+      <p class="text-white">While it's not something I do as often as photography or painting I still like to scratch the itch from time to time.</p>
+      <p class="text-white">Below is a small collection of designs I've made over the years.</p>
+    </div>
+
+    <div class="p-4 container-fluid bg-black">
+      <h2 class="text-white">Album Covers</h2>
+    </div>
+
+    <!-- Graphics Gallery -->
+    <div class="p-4 container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/WOMC_cover.jpeg" class="card-img" alt="WOMC">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/WOMC_cover.jpeg" class="card-img" alt="TCJ">
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/pra/focus.jpeg" class="card-img" alt="Prague">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Prague</h6>
+    <div class="p-4 container-fluid bg-black">
+      <h2 class="text-white">Apparel Designs</h2>
+    </div>
+
+    <!-- Graphics Gallery -->
+    <div class="p-4 container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/academic.png" class="card-img" alt="Arizona">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/fresh.png" class="card-img" alt="Fresh Prince">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/CR.png" class="card-img" alt="Color Run">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/grizz.png" class="card-img" alt="Grizzlies">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/mtv.png" class="card-img" alt="MTV">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/wolf.png" class="card-img" alt="Spring Break">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/arnold.png" class="card-img" alt="Arnold">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/up.png" class="card-img" alt="MDA">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/moms.png" class="card-img" alt="Moms Weekend">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark">
+            <img src="/images/graphics/HC17.png" class="card-img" alt="Homecoming">
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/phi/golden.jpeg" class="card-img" alt="Golden Hour">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Sunsets</h6>
-      </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/irl/cliffs.jpg" class="card-img" alt="Cliffs">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Ireland</h6>
-      </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/bry/bry6.jpg" class="card-img" alt="Bryce Canyon">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Bryce Canyon</h6>
-      </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/ams/boat.jpg" class="card-img" alt="Boat">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Amsterdam</h6>
-      </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/par/arc.jpg" class="card-img" alt="Arc">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">Paris</h6>
-      </div>
-    </div>
-
-    <div class="card text-end bg-dark text-white">
-      <img src="/images/pictures/san/fisherman.jpeg" class="card-img" alt="Fisherman">
-      <div class="card-img-overlay d-flex flex-column justify-content-end">
-        <h6 class="card-title">San Diego</h6>
-      </div>
+    <!-- Bottom Navigation / Breadcrumbs -->
+    <div class="p-2 container-fluid">
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="p-2 bg-black">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="https://gavin-daniel.com/" class="text-white-50">Home</a></li>
+          <li class="breadcrumb-item"><a href="https://gavin-daniel.com/gallery/" class="text-white-50">Gallery</a></li>
+          <li class="breadcrumb-item disabled">Graphics</li>
+        </ol>
+      </nav>
+      <hr class="footer">
+      <div class="p-2 text-white-50">©  2022 Gavin Daniel</div>
     </div>
 
   </body>
