@@ -1,29 +1,29 @@
 body { 
-      background: black !important; 
+    background: black !important; 
 }
 
 hr.footer { 
-      border: 1px solid white; 
+    border: 1px solid white; 
 }
 
 #logo { 
-      opacity: 0.5; 
+    opacity: 0.5; 
 } 
 
 #logo:hover { 
-      opacity: 0.8; 
+    opacity: 0.8; 
 } 
 
 #localNavbar { 
-      opacity: 0.8; 
+    opacity: 0.8; 
 }
 
 a { 
-      text-decoration: none; 
+    text-decoration: none; 
 } 
       
 a:hover { 
-      text-decoration: underline; 
+    text-decoration: underline; 
 }
 
 
